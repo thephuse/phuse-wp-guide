@@ -13,5 +13,5 @@ scripts:
 title: General Wordpress User Guide
 index: index.md
 
-baseUrl: http://localhost/8001
-cname: couscous.io
+baseUrl: http://thephuse.github.io/phuse-wp-guide
+# cname: couscous.io
