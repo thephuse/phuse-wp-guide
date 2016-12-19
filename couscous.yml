@@ -1,0 +1,17 @@
+template:
+    directory: website
+
+exclude:
+    - vendor
+    - bin
+    - tests
+
+scripts:
+    before:
+       # - lessc --clean-css website/less/main.less website/css/all.min.css
+
+title: General Wordpress User Guide
+index: index.md
+
+baseUrl: http://localhost/8001
+cname: couscous.io
