@@ -13,8 +13,8 @@ $(function () {
   var currentSlug = currentLocation.substring(currentLocation.indexOf('/docs'), currentLocation.length);
   console.log(currentSlug);
   var navItem = $('.Nav .Nav li');
-  console.log(navItem);
   for(var $i = 0; $i < navItem.length; $i++){
+    console.log($(navItem[$i]).children('a').attr('href'));
     if($(navItem[$i]).children('a').attr('href') === currentSlug) {
       $(navItem[$i]).addClass('Nav__item--active');
       $(navItem[$i]).parents('.parent-list').addClass('Nav__item--open');
