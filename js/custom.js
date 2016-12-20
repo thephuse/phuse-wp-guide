@@ -36,9 +36,9 @@ $(function () {
 
     parent.siblings().find('ul').slideUp();
     $this.next().slideToggle();
-    parent.parent().find('.Nav__item-open').not(parent).removeClass('Nav__item-open');
-    if (parent.hasClass('Nav__item-open')) parent.removeClass('Nav__item-open')
-    else parent.addClass('Nav__item-open');
+    parent.parent().find('.Nav__item--open').not(parent).removeClass('Nav__item--open');
+    if (parent.hasClass('Nav__item--open')) parent.removeClass('Nav__item--open')
+    else parent.addClass('Nav__item--open');
   });
 
 
