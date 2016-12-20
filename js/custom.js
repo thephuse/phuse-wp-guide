@@ -9,8 +9,11 @@ $(function () {
 
   // open sidebar item if child item is active
   var currentLocation = $(location).attr('href');
+  console.log(currentLocation);
   var currentSlug = currentLocation.substring(currentLocation.indexOf('/docs'), currentLocation.length);
+  console.log(currentSlug);
   var navItem = $('.Nav .Nav li');
+  console.log(navItem);
   for(var $i = 0; $i < navItem.length; $i++){
     if($(navItem[$i]).children('a').attr('href') === currentSlug) {
       $(navItem[$i]).addClass('Nav__item--active');
