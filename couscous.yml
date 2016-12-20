@@ -13,6 +13,6 @@ scripts:
 title: General Wordpress User Guide
 index: index.md
 
-baseUrl: http://thephuse.github.io/phuse-wp-guide
+baseUrl: https://thephuse.github.io/phuse-wp-guide
 #cname: couscous.io
 branch: gh-pages
