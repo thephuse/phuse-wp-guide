@@ -3397,7 +3397,7 @@ i.Nav__arrow {
   -webkit-font-smoothing: antialiased;
 }
 
-.Nav__item-open.parent-list:after {
+.Nav__item--open.parent-list:after {
   transform: rotate(180deg);
 }
 
