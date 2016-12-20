@@ -15,4 +15,4 @@ index: index.md
 
 baseUrl: http://thephuse.github.io/phuse-wp-guide
 #cname: couscous.io
-branch: gh-pages
+branch: master
