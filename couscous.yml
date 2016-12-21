@@ -10,9 +10,8 @@ scripts:
     before:
        # - lessc --clean-css website/less/main.less website/css/all.min.css
 
+baseUrl: https://thephuse.github.io/phuse-wp-guide
 title: General Wordpress User Guide
 index: index.md
-
-baseUrl: https://thephuse.github.io/phuse-wp-guide
-#cname: couscous.io
+# cname: wpguide.phuse.ca
 branch: gh-pages
