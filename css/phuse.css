@@ -3395,6 +3395,7 @@ i.Nav__arrow {
   line-height: 1;
   font-size: 0.75em;
   -webkit-font-smoothing: antialiased;
+  transition: transform 150ms;
 }
 
 .Nav__item--open.parent-list:after {
