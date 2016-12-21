@@ -13,5 +13,5 @@ scripts:
 baseUrl: https://thephuse.github.io/phuse-wp-guide
 title: General Wordpress User Guide
 index: index.md
-# cname: wpguide.phuse.ca
+cname: https://thephuse.github.io/phuse-wp-guide
 branch: gh-pages
