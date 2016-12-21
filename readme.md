@@ -12,3 +12,6 @@ This documentation was created with  [couscous.io](http://couscous.io/) on a cus
 4. To deploy to the live site run `couscous deploy`.
 
 Review the [couscous.io install instructions](http://couscous.io/docs/getting-started.html) for further information, options and troubleshooting tips.
+
+## Editing Content
+All pages are written in Markdown. Editable content files are available in the `docs` directory. Theme files (built with Twig and straight CSS) can be found in the `website` directory.
